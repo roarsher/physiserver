@@ -135,18 +135,27 @@ export function createApp({
   );
 
   // Exact origins come from CLIENT_URLS in your environment.
-  app.use((req, res, next) => {
-    const origin = req.headers.origin;
+   app.use((req, res, next) => {
+  const origin = req.get('Origin');
 
-    if (origin && !allowedOrigins.includes(origin)) {
-      return res.status(403).json({
-        success: false,
-        message: 'Request origin is not allowed',
-      });
-    }
+  if (!origin || allowedOrigins.includes(origin)) {
+    return next();
+  }
 
-    next();
+  console.error('Origin rejected:', {
+    receivedOrigin: origin,
+    allowedOrigins,
+    method: req.method,
+    path: req.path,
   });
+
+  return res.status(403).json({
+    success: false,
+    message: `Request origin is not allowed: ${origin}`,
+  });
+});
+
+    
 
   app.use(
     cors({
