@@ -75,13 +75,36 @@ try {
 
   process.once('SIGTERM', shutdown);
   process.once('SIGINT', shutdown);
-} catch (error) {
-  console.error(
-    'Startup failed:',
-    error.name === 'MongooseServerSelectionError'
-      ? 'Cannot connect to MongoDB. Check MONGODB_URI, database availability and network access.'
-      : error.message
-  );
+}   catch (error) {
+  function safeMessage(value) {
+    return String(value || '').replace(
+      /mongodb(?:\+srv)?:\/\/[^\s]+/gi,
+      '[MongoDB connection string hidden]'
+    );
+  }
+
+  console.error('Startup failed:', {
+    name: error.name,
+    code: error.code,
+    message: safeMessage(error.message),
+  });
+
+  // Show individual connection failures, such as TLS or timeout errors.
+  const servers = error.reason?.servers;
+
+  if (servers instanceof Map) {
+    for (const [address, server] of servers) {
+      if (server.error) {
+        console.error('MongoDB server connection failed:', {
+          address,
+          name: server.error.name,
+          code: server.error.code,
+          message: safeMessage(server.error.message),
+          cause: safeMessage(server.error.cause?.message),
+        });
+      }
+    }
+  }
 
   process.exit(1);
 }
