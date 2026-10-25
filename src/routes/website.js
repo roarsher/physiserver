@@ -7,7 +7,27 @@ import {inspectMedia,saveMedia,removeMedia} from '../utils/media.js';
 import {toCsv} from '../utils/csv.js';
 const id=z.string().regex(/^[a-f\d]{24}$/i);
 export const querySchema=z.object({status:z.enum(['new','contacted','closed','pending','approved','rejected']).optional(),q:z.string().trim().max(120).optional(),from:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v=>!Number.isNaN(Date.parse(v))).optional(),to:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).refine(v=>!Number.isNaN(Date.parse(v))).optional(),page:z.coerce.number().int().min(1).default(1),limit:z.coerce.number().int().min(1).max(100).default(20)}).strict();
-export function parse(schema,value){const result=schema.safeParse(value);if(!result.success)throw Object.assign(new Error('Check the submitted fields'),{status:400});return result.data;}
+
+export function parse(schema, value) {
+  const result = schema.safeParse(value);
+
+  if (!result.success) {
+    const details = result.error.issues.map(issue => {
+      const field = issue.path.length
+        ? issue.path.join('.')
+        : 'Form';
+
+      return `${field}: ${issue.message}`;
+    });
+
+    const error = new Error(details.join(' | '));
+    error.status = 400;
+
+    throw error;
+  }
+
+  return result.data;
+}
 const mediaView=row=>({...row,url:'/uploads/'+row.fileName});
 export function websiteRoutes({store,services,adminGuard,uploadDir,secret,ready}){
  const router=Router();const uploadImage=multer({storage:multer.memoryStorage(),limits:{fileSize:5*1024*1024,files:1,fields:8}}).single('image');const uploadGallery=multer({storage:multer.memoryStorage(),limits:{fileSize:50*1024*1024,files:1,fields:8}}).single('file');
