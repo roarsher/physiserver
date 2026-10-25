@@ -1,0 +1,1 @@
+export const defaultSettings={phone:'',whatsapp:'',email:'',address:'',hours:'',mapEmbedUrl:'',socialLinks:[],analyticsEnabled:true,stats:[{label:'Children & Adults Helped',value:null,suffix:'+'},{label:'Years of Experience',value:null,suffix:'+'},{label:'Happy Families',value:null,suffix:'+'}]};

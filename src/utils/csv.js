@@ -1,0 +1,1 @@
+export function toCsv(headers,rows){const cell=v=>{let s=String(v??'');if(/^\s*[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';};return '\ufeff'+[headers,...rows].map(row=>row.map(cell).join(',')).join('\r\n');}
