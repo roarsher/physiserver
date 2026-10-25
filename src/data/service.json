@@ -1,0 +1,627 @@
+{
+  "categories": [
+    "All services",
+    "Child Neuro Development & Pediatric Services",
+    "Pain Management & Orthopedic Physiotherapy",
+    "Neurological & Special Care",
+    "Sports & Other Services"
+  ],
+  "services": [
+    {
+      "id": "parent-education-home-programs",
+      "name": "Parent Education & Home Programs",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Practical guidance for parents to support agreed goals in everyday routines.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/parent-education-home-programs.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "HouseHeart",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "posture-and-gait-training",
+      "name": "Posture & Gait Training",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "child",
+      "description": "Assessment and support for posture, walking, and movement in daily life.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/posture-and-gait-training.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "Accessibility",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sensory-integration",
+      "name": "Sensory Integration",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Ask our team about assessment and support for your child\u2019s sensory needs.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/sensory-integration.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "Sparkles",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "early-intervention-programs",
+      "name": "Early Intervention Programs",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Support for young children and families when developmental concerns first arise.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/early-intervention-programs.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "Sprout",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "neuro-developmental-therapy",
+      "name": "Neuro Developmental Therapy",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "speech",
+      "description": "An individual approach to movement and developmental needs, with clear goals for your child.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/neuro-developmental-therapy.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "Brain",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "pediatric-physiotherapy",
+      "name": "Pediatric Physiotherapy",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Support for movement, balance, and everyday activities, shaped around your child\u2019s assessment.",
+      "details": [
+        "Your child\u2019s needs and goals guide the assessment.",
+        "Ask the team about availability and suitable next steps."
+      ],
+      "videoUrl": "/videos/services/pediatric-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "featured": true,
+      "icon": "Footprints",
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "cervical-spinal-canal-stenosis",
+      "name": "Cervical Spinal Canal Stenosis",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about cervical spinal canal stenosis, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/cervical-spinal-canal-stenosis.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "frozen-shoulder",
+      "name": "Frozen Shoulder",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about frozen shoulder, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/frozen-shoulder.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "periarthritis",
+      "name": "Periarthritis",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about periarthritis, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/periarthritis.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "cervical-pain",
+      "name": "Cervical Pain",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about cervical pain, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/cervical-pain.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "cervical-and-spinal-pain",
+      "name": "Cervical and Spinal Pain",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about cervical and spinal pain, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/cervical-and-spinal-pain.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "neck-pain",
+      "name": "Neck Pain",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about neck pain, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/neck-pain.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "cerebral-palsy-cp",
+      "name": "Cerebral Palsy (CP)",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Ask our team about cerebral palsy (cp), appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/cerebral-palsy-cp.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "spine-mobilization",
+      "name": "Spine Mobilization",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "therapy",
+      "description": "Ask our team about spine mobilization, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/spine-mobilization.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sports-injury",
+      "name": "Sports Injury",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about sports injury, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/sports-injury.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sciatica-pain",
+      "name": "Sciatica Pain",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "therapy",
+      "description": "Ask our team about sciatica pain, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/sciatica-pain.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "low-back-pain",
+      "name": "Low Back Pain",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "therapy",
+      "description": "Ask our team about low back pain, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/low-back-pain.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "physiotherapy-for-sports-injury-rehabilitation",
+      "name": "Physiotherapy for Sports Injury Rehabilitation",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about physiotherapy for sports injury rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/physiotherapy-for-sports-injury-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "frozen-shoulder-physiotherapy",
+      "name": "Frozen Shoulder Physiotherapy",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about frozen shoulder physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/frozen-shoulder-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "clinical-physiotherapy",
+      "name": "Clinical Physiotherapy",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about clinical physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/clinical-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "orthopaedic-physiotherapy",
+      "name": "Orthopaedic Physiotherapy",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "therapy",
+      "description": "Ask our team about orthopaedic physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/orthopaedic-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "manual-therapy",
+      "name": "Manual Therapy",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about manual therapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/manual-therapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sports-massage-therapy",
+      "name": "Sports Massage Therapy",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about sports massage therapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/sports-massage-therapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sports-physiotherapy",
+      "name": "Sports Physiotherapy",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about sports physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/sports-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "knee-pain-physiotherapy",
+      "name": "Knee Pain Physiotherapy",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about knee pain physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/knee-pain-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "stroke-physiotherapy-rehabilitation",
+      "name": "Stroke Physiotherapy Rehabilitation",
+      "category": "Neurological & Special Care",
+      "picture": "therapy",
+      "description": "Ask our team about stroke physiotherapy rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/stroke-physiotherapy-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "at-home-physiotherapy-services",
+      "name": "Physiotherapy Home Visits",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Request physiotherapy at your home. Our team will confirm your area, availability and visit charges.",
+      "videoUrl": "/videos/services/at-home-physiotherapy-services.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Share your home address with the centre when enquiring.",
+        "The team will confirm whether a home visit is suitable and available.",
+        "Your enquiry is a request, not a confirmed appointment."
+      ],
+      "homeVisit": true,
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "physiotherapy-center",
+      "name": "Physiotherapy Center",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about physiotherapy center, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/physiotherapy-center.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "knee-care",
+      "name": "Knee Care",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about knee care, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/knee-care.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "electrical-stimulation",
+      "name": "Electrical Stimulation",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about electrical stimulation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/electrical-stimulation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "tennis-elbow-physiotherapy",
+      "name": "Tennis Elbow Physiotherapy",
+      "category": "Pain Management & Orthopedic Physiotherapy",
+      "picture": "joint",
+      "description": "Ask our team about tennis elbow physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/tennis-elbow-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "paraplegia-physiotherapy",
+      "name": "Paraplegia Physiotherapy",
+      "category": "Neurological & Special Care",
+      "picture": "therapy",
+      "description": "Ask our team about paraplegia physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/paraplegia-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "neurophysiotherapy",
+      "name": "Neurophysiotherapy",
+      "category": "Neurological & Special Care",
+      "picture": "therapy",
+      "description": "Ask our team about neurophysiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/neurophysiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "occupational-physiotherapy",
+      "name": "Occupational Physiotherapy",
+      "category": "Neurological & Special Care",
+      "picture": "child",
+      "description": "Ask our team about occupational physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/occupational-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "rheumatoid-arthritis-physiotherapy",
+      "name": "Rheumatoid Arthritis Physiotherapy",
+      "category": "Sports & Other Services",
+      "picture": "joint",
+      "description": "Ask our team about rheumatoid arthritis physiotherapy, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/rheumatoid-arthritis-physiotherapy.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "cerebral-palsy-rehabilitation",
+      "name": "Cerebral Palsy Rehabilitation",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "child",
+      "description": "Ask our team about cerebral palsy rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/cerebral-palsy-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "physiotherapy-care",
+      "name": "Physiotherapy Care",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about physiotherapy care, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/physiotherapy-care.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "pelvic-rehabilitation",
+      "name": "Pelvic Rehabilitation",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about pelvic rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/pelvic-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "sports-fracture-rehabilitation",
+      "name": "Sports Fracture Rehabilitation",
+      "category": "Sports & Other Services",
+      "picture": "joint",
+      "description": "Ask our team about sports fracture rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/sports-fracture-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "speech-and-language-rehabilitation",
+      "name": "Speech and Language Rehabilitation",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "speech",
+      "description": "Ask our team about speech and language rehabilitation, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/speech-and-language-rehabilitation.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "rehabilitation-of-patients-with-speech",
+      "name": "Rehabilitation of Patients With Speech",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "speech",
+      "description": "Ask our team about rehabilitation of patients with speech, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/rehabilitation-of-patients-with-speech.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "speech-and-language-assessment",
+      "name": "Speech and Language Assessment",
+      "category": "Child Neuro Development & Pediatric Services",
+      "picture": "speech",
+      "description": "Ask our team about speech and language assessment, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/speech-and-language-assessment.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    },
+    {
+      "id": "tape-stripping",
+      "name": "Tape Stripping",
+      "category": "Sports & Other Services",
+      "picture": "therapy",
+      "description": "Ask our team about tape stripping, appointment availability and the assessment process.",
+      "videoUrl": "/videos/services/tape-stripping.mp4",
+      "videoCaptionsUrl": "",
+      "details": [
+        "Contact the centre to discuss service availability.",
+        "The team can explain the assessment and appointment process."
+      ],
+      "previewVideoUrl": ""
+    }
+  ]
+}
