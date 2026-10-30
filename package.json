@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "abhi-physiotherapy": "file:..",
+    "cloudinary": "^2.11.0",
     "connect-mongo": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
