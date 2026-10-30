@@ -3,6 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import session from 'express-session';
 import { rateLimit } from 'express-rate-limit';
+import { getMediaUrl } from './utils/media.js';
 
 import {
   createHash,
@@ -229,47 +230,59 @@ export function createApp({
   });
 
   // Public services
-  app.get('/api/services', async (req, res) => {
-    let media = [];
+app.get('/api/services', async (req, res) => {
+  let media = [];
 
-    if (managementRepository && isReady()) {
-      media = await managementRepository.listGallery();
-    }
+  if (managementRepository && isReady()) {
+    media = await managementRepository.listGallery();
+  }
 
-    const items = services.map(service => {
-      const linked = media
-        .filter(item => item.serviceId === service.id)
-        .sort((a, b) => a.sortOrder - b.sortOrder);
+  const items = services.map(service => {
+    const linked = media
+      .filter(item => item.serviceId === service.id)
+      .sort((a, b) => a.sortOrder - b.sortOrder);
 
-      const video = linked.find(item => item.kind === 'video');
-      const image = linked.find(item => item.kind === 'image');
+    const video = linked.find(
+      item =>
+        item.kind === 'video' &&
+        Boolean(getMediaUrl(item))
+    );
 
-      return {
-        ...service,
+    const image = linked.find(
+      item =>
+        item.kind === 'image' &&
+        Boolean(getMediaUrl(item))
+    );
 
-        ...(video
-          ? {
-              videoUrl: `/uploads/${video.fileName}`,
-              previewVideoUrl: `/uploads/${video.fileName}`,
-            }
-          : {}),
+    const videoUrl = getMediaUrl(video);
+    const imageUrl = getMediaUrl(image);
 
-        ...(image
-          ? {
-              imageUrl: `/uploads/${image.fileName}`,
-            }
-          : {}),
-      };
-    });
+    return {
+      ...service,
 
-    res.json({
-      success: true,
-      data: {
-        categories,
-        services: items,
-      },
-    });
+      ...(videoUrl
+        ? {
+            videoUrl,
+            previewVideoUrl: videoUrl,
+          }
+        : {}),
+
+      ...(imageUrl
+        ? {
+            imageUrl,
+          }
+        : {}),
+    };
   });
+
+  res.json({
+    success: true,
+    data: {
+      categories,
+      services: items,
+    },
+  });
+});
 
   // Public enquiry submission
   app.post(
