@@ -259,20 +259,20 @@ export function websiteRoutes({
       }
 
       const saved = await store.createReview({
-        ...data,
-        consent: true,
-        ...image,
-        status: 'pending',
-      });
+  ...data,
+  consent: true,
+  ...image,
+  status: 'approved',
+});
 
-      res.status(201).json({
-        success: true,
-        data: {
-          id: String(saved._id),
-          status: 'pending',
-        },
-        message: 'Thank you. Your review is awaiting approval.',
-      });
+res.status(201).json({
+  success: true,
+  data: {
+    id: String(saved._id),
+    status: 'approved',
+  },
+  message: 'Thank you! Your review has been published.',
+});
     }
   );
 
